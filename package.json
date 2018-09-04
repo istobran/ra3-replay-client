@@ -20,13 +20,18 @@
   },
   "homepage": "https://github.com/istobran/ra3-replay-client#readme",
   "dependencies": {
+    "@types/react": "^16.4.13",
+    "@types/react-dom": "^16.0.7",
     "nw": "^0.32.4-sdk",
     "parcel-bundler": "^1.9.7",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "reset-css": "^4.0.1"
   },
   "devDependencies": {
-    "nw-builder": "^3.5.4"
+    "node-sass": "^4.9.3",
+    "nw-builder": "^3.5.4",
+    "typescript": "^3.0.3"
   },
   "window": {
     "toolbar": true
