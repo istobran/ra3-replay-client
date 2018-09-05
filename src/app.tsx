@@ -14,13 +14,8 @@ class App extends React.Component<{}, State> {
     this.state = { liked: false };
   }
   render() {
-    if (this.state.liked) {
-      return "You have already liked this.";
-    }
-
-    // return e("button", { onClick: () => this.setState({ liked: true }) }, "like")
     return (
-      <button onClick={() => this.setState({ liked: true })}>like</button>
+      <div>initialized</div>
     )
   }
 }

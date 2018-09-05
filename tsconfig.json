@@ -13,7 +13,9 @@
         ],
         "types": [
             "react",
-            "react-dom"
+            "react-dom",
+            "node",
+            "nw.gui"
         ]
     },
     "include": [
