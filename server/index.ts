@@ -1,9 +1,11 @@
 // 获取本地目录列表
 // 先尝试获取home
-const fs = require("fs");
+import fs from "fs";
 
-let resources = fs.readdirSync(".", { encoding: 'utf8' });
+const REPLAY_PATH: string = ".";
 
-export default {
-  hello: resources
+export class ReplayTool {
+  getReplayList() : string[] {
+    return fs.readdirSync(REPLAY_PATH, { encoding: 'utf8' });
+  }
 }
